@@ -22,5 +22,10 @@ Textree::Application.configure do
 
   # Only use best-standards-support built into browsers
   config.action_dispatch.best_standards_support = :builtin
+
+  config.TWILIO_SID = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+  config.TWILIO_TOKEN = 'YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY'
+  config.TWILIO_API_REV = '2010-04-01'
+  config.TWILIO_NUMBER = '(XXX) XXX-XXXX'
 end
 

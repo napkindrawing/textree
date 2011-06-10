@@ -1,3 +1,9 @@
 SMS Trees.
 
 A Twilio app that broadcasts text messages.
+
+Add your Twilio API information to config/environments/development.rb
+
+Register the URL corresponding to the "/incoming" route as your SMS Request URL in Twilio.
+
+Add Members at "/members". When a text is sent to your Twilio number, the text will be re-sent to all members' phone numbers.
